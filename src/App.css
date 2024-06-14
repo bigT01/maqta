@@ -1,0 +1,6 @@
+.active{
+    svg{
+        color: #004225;
+        transform: scale(1.25);
+    }
+}

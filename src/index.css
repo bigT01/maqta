@@ -43,3 +43,29 @@ body{
         transform: translateY(100%);
     }
 }
+
+.fade-in-right{
+    animation: RightFade 1s ease-in-out forwards;
+}
+
+@keyframes RightFade {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.fade-in-Left{
+    animation: leftFade 1s ease-in-out forwards;
+}
+
+@keyframes leftFade {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
