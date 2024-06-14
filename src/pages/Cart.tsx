@@ -3,14 +3,14 @@ import {Link} from "react-router-dom";
 import {IoIosArrowForward} from "react-icons/io";
 import Timer from "../components/timer";
 import {useEffect, useState} from "react";
-import {useStore} from "../store/useStore.ts";
+// import {useStore} from "../store/useStore.ts";
 
 const Cart = () => {
-    const CurrentCart = useStore(state => state.CurrentCart)
+    // const CurrentCart = useStore(state => state.CurrentCart)
     const [sec, setSec] = useState(100)
 
     useEffect(() => {
-        console.log(CurrentCart.getTime)
+        console.log(sec)
     }, []);
     return (
         <div className={'w-full'}>
